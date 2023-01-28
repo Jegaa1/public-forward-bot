@@ -3,8 +3,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'https://www.youtube.com/@GreyMattersYT'
+    return 'JAsuran2p0'
 
 
-if __name__ == "__main__":
+if __name__ == "__web__":
     app.run()
