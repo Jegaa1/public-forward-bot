@@ -9,7 +9,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://asuvarisubot:asuvarisubot@asuvarisubot.6fqoto1.mongodb.net/?retryWrites=true&w=majority")  
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "asuvarisubot")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
-    SESSION = os.environ.get("SESSION", "")   
+    SESSION = os.environ.get("SESSION", "AQAo6dQdKwpPuri025bluifW0xOv0-knzHZpYLUaPtHc4xtAQQVxXuPMp5HXgtCQK-AOQlwcKXjV99Np4KcC3xp344l1LT9oiBJkMT6pDYOBbGSKvjSP-U2CjohpW5oaDxhDbukMMIh_TGdWVcPQiNDGPgA5CLP3gjdh-RvH2uGW90kyW5pzqDDLF_5SNyCDvgEzdu-qNHidmQcpo90kw9NiVdXZ13B2GPwna9AwKCoN-0hHH9fvGo_pP_kSxcBY0azWOvOM2MD3KfKQ-yI4u4UmPspC3BZQTIqZDt3blbtLQWFAGcyznfffCjVWiVnrhE7cftRmj7LbmXr4wU1ZzU_6UbAx_QA")   
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001188070894"))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "asuvarisubot")
 
