@@ -6,5 +6,5 @@ def hello_world():
     return 'JAsuran2p0'
 
 
-if __name__ == "__web__":
+if __name__ == "__main__":
     app.run()
